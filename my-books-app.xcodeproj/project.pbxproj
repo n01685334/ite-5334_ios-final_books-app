@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D518DBA2DB0B76C00AD89D2 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D518DB92DB0B76C00AD89D2 /* CoreDataManager.swift */; };
+		0D518DC12DB0B9DE00AD89D2 /* UserBook+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D518DBF2DB0B9DE00AD89D2 /* UserBook+CoreDataClass.swift */; };
+		0D518DC22DB0B9DE00AD89D2 /* UserBook+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D518DC02DB0B9DE00AD89D2 /* UserBook+CoreDataProperties.swift */; };
+		0D518DC42DB0BC1200AD89D2 /* UserBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D518DC32DB0BC1200AD89D2 /* UserBookViewController.swift */; };
+		0D518DC82DB0BD8600AD89D2 /* LibraryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D518DC72DB0BD8600AD89D2 /* LibraryTableViewController.swift */; };
 		0DE0E4AB2DA75007003006C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE0E4AA2DA75007003006C6 /* AppDelegate.swift */; };
 		0DE0E4AD2DA75007003006C6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE0E4AC2DA75007003006C6 /* SceneDelegate.swift */; };
 		0DE0E4AF2DA75007003006C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE0E4AE2DA75007003006C6 /* ViewController.swift */; };
@@ -14,9 +19,18 @@
 		0DE0E4B52DA75007003006C6 /* my_books_app.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0DE0E4B32DA75007003006C6 /* my_books_app.xcdatamodeld */; };
 		0DE0E4B72DA75008003006C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DE0E4B62DA75008003006C6 /* Assets.xcassets */; };
 		0DE0E4BA2DA75008003006C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DE0E4B82DA75008003006C6 /* LaunchScreen.storyboard */; };
+		0DE0E4C22DA76399003006C6 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE0E4C12DA76399003006C6 /* ApiManager.swift */; };
+		0DE0E4C42DA7661F003006C6 /* BookModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE0E4C32DA7661F003006C6 /* BookModel.swift */; };
+		0DE0E4C62DA77014003006C6 /* BookSearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE0E4C52DA77014003006C6 /* BookSearchController.swift */; };
+		0DE0E4C82DA95A34003006C6 /* BookDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE0E4C72DA95A34003006C6 /* BookDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D518DB92DB0B76C00AD89D2 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		0D518DBF2DB0B9DE00AD89D2 /* UserBook+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserBook+CoreDataClass.swift"; sourceTree = "<group>"; };
+		0D518DC02DB0B9DE00AD89D2 /* UserBook+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserBook+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		0D518DC32DB0BC1200AD89D2 /* UserBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserBookViewController.swift; sourceTree = "<group>"; };
+		0D518DC72DB0BD8600AD89D2 /* LibraryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryTableViewController.swift; sourceTree = "<group>"; };
 		0DE0E4A72DA75007003006C6 /* my-books-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "my-books-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DE0E4AA2DA75007003006C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0DE0E4AC2DA75007003006C6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +40,10 @@
 		0DE0E4B62DA75008003006C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0DE0E4B92DA75008003006C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0DE0E4BB2DA75008003006C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DE0E4C12DA76399003006C6 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		0DE0E4C32DA7661F003006C6 /* BookModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookModel.swift; sourceTree = "<group>"; };
+		0DE0E4C52DA77014003006C6 /* BookSearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookSearchController.swift; sourceTree = "<group>"; };
+		0DE0E4C72DA95A34003006C6 /* BookDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,8 @@
 		0DE0E4A92DA75007003006C6 /* my-books-app */ = {
 			isa = PBXGroup;
 			children = (
+				0D518DBF2DB0B9DE00AD89D2 /* UserBook+CoreDataClass.swift */,
+				0D518DC02DB0B9DE00AD89D2 /* UserBook+CoreDataProperties.swift */,
 				0DE0E4AA2DA75007003006C6 /* AppDelegate.swift */,
 				0DE0E4AC2DA75007003006C6 /* SceneDelegate.swift */,
 				0DE0E4AE2DA75007003006C6 /* ViewController.swift */,
@@ -66,6 +86,13 @@
 				0DE0E4B82DA75008003006C6 /* LaunchScreen.storyboard */,
 				0DE0E4BB2DA75008003006C6 /* Info.plist */,
 				0DE0E4B32DA75007003006C6 /* my_books_app.xcdatamodeld */,
+				0DE0E4C12DA76399003006C6 /* ApiManager.swift */,
+				0DE0E4C32DA7661F003006C6 /* BookModel.swift */,
+				0DE0E4C52DA77014003006C6 /* BookSearchController.swift */,
+				0DE0E4C72DA95A34003006C6 /* BookDetailViewController.swift */,
+				0D518DB92DB0B76C00AD89D2 /* CoreDataManager.swift */,
+				0D518DC32DB0BC1200AD89D2 /* UserBookViewController.swift */,
+				0D518DC72DB0BD8600AD89D2 /* LibraryTableViewController.swift */,
 			);
 			path = "my-books-app";
 			sourceTree = "<group>";
@@ -141,10 +168,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D518DC22DB0B9DE00AD89D2 /* UserBook+CoreDataProperties.swift in Sources */,
+				0D518DC82DB0BD8600AD89D2 /* LibraryTableViewController.swift in Sources */,
+				0DE0E4C42DA7661F003006C6 /* BookModel.swift in Sources */,
 				0DE0E4B52DA75007003006C6 /* my_books_app.xcdatamodeld in Sources */,
 				0DE0E4AF2DA75007003006C6 /* ViewController.swift in Sources */,
+				0DE0E4C22DA76399003006C6 /* ApiManager.swift in Sources */,
+				0DE0E4C62DA77014003006C6 /* BookSearchController.swift in Sources */,
 				0DE0E4AB2DA75007003006C6 /* AppDelegate.swift in Sources */,
+				0DE0E4C82DA95A34003006C6 /* BookDetailViewController.swift in Sources */,
+				0D518DC42DB0BC1200AD89D2 /* UserBookViewController.swift in Sources */,
+				0D518DC12DB0B9DE00AD89D2 /* UserBook+CoreDataClass.swift in Sources */,
 				0DE0E4AD2DA75007003006C6 /* SceneDelegate.swift in Sources */,
+				0D518DBA2DB0B76C00AD89D2 /* CoreDataManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
